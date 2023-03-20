@@ -5,7 +5,7 @@
 
 ## Description
 
-In this CDK project are all the resources that updated glue indexes for Athena Tables automated. You can find more information about this solution at this [blogpost](htps://globaldatanet.com/tech-blog/serverless-querying-and-evaluating-of-logs-using-athena-part-2). 
+In this CDK project are all the resources that updated glue indexes for Athena Tables automated. You can find more information about this solution at this [blogpost](https://globaldatanet.com/tech-blog/serverless-querying-and-evaluating-of-logs-using-athena-part-2).
 
 ## Architecture
 ![Architecture](./static/architecture.drawio.png "Architecture")
