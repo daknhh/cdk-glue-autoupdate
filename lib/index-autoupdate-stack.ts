@@ -62,7 +62,8 @@ export class IndexAutoupdateStack extends cdk.Stack {
       },
       environment: {
         GlueConfigSsmParameter: glueTableIndexAutoupdateConfigurationParameter.parameterName
-      }
+      },
+      reservedConcurrentExecutions: 1
     });
     glueTableIndexAutoupdateConfigurationParameter.grantRead(updateGlueIndexFunction);
 

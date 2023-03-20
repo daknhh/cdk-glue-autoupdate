@@ -57,6 +57,7 @@ export interface ResourceResource {
 }
 
 
+// eslint-disable-next-line @typescript-eslint/naming-convention
 export interface TLSDetails {
     tlsVersion:               string;
     cipherSuite:              string;
