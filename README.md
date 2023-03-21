@@ -37,5 +37,5 @@ Configuration-file `logging.ts` exist in folder `values`.
 For deployment, a valid session must first exist in the billing account (management) in the shell. Deployment then works via:
 
 ```
-cdk deploy YOURPREFIX-CF-STACK-SSO-EVENTRULE
+cdk deploy YOURPREFIX-CF-STACK-GLUE-EVENTRULE
 ```
