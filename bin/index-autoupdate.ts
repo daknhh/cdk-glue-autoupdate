@@ -11,7 +11,7 @@ const indexautostack =  new IndexAutoupdateStack(app, config.General.Prefix +"-C
   config: config
 });
 
-new OrgEventsRuleBridgeStack(app, config.General.Prefix + "-CF-STACK-SSO-EVENTRULE", {
+new OrgEventsRuleBridgeStack(app, config.General.Prefix + "-CF-STACK-GLUE-EVENTRULE", {
   env:{ account: "MANAGEMENTACCOUNTID", region: "us-east-1" },
   eventBus: indexautostack.eventBus
 });
